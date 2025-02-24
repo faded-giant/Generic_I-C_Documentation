@@ -37,7 +37,7 @@ Each slot has a dedicated **analog** and **digital** pin. These pins correspond 
 ## 🔌 Headers
 
 ### **Top 4-Pin Header (Power)**
-The **4-pin power header** at the top of the board connects to the **Arduino Mega's power pins**.
+The **4-pin power header** at the top of the slots connects to power supply connected to J1**.
 
  [GND] [GND] [PWR] [PWR]
 
