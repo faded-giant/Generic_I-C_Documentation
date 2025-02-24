@@ -34,11 +34,12 @@ Each slot has a dedicated **analog** and **digital** pin. These pins correspond 
 ### **Top 2-Pin Header (Power)**
 The **4-pin power header** at the top of the board connects to the **Arduino Mega's power pins**.
 
-[PWR] [GND]
+ [GND] [GND] [PWR] [PWR]
 
 ### **Bottom 6-Pin Header (Communication & Power)**
 The **6-pin header** at the bottom provides power and communication connections, wired to the respective **Arduino Mega** pins.
-[GND] [VCC] [TX] [RX] [SCL] [SDA]
+The pins for each slot are oriented (with front facing you) as follows:
+[GND] [DIO] [AIO] [SCL] [SDA] [5V]
 
 ### 📌 Notes:
 - The **digital pins** listed above can be used directly in **Arduino sketches** (e.g., `digitalWrite(22, HIGH);`).
