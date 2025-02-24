@@ -7,7 +7,7 @@ This document provides an overview of the **pin assignments** for the Arduino **
 
 Power Applied to J1 is connected to each slot's power header. a 5VDC regulator provides power to the Arduino and the communication headers. 
 
-A I2C Header is provided for an LCD screen
+An I2C Header is provided for an LCD screen
 
 DIO pins 1-8 have breakout pins next to a GND pin for digital inputs. Facing the board, the GND pin is the left pin, and the DIO pin is the right.
 
