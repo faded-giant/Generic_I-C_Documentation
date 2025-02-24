@@ -17,7 +17,7 @@ DIO pins 1-8 have breakout pins next to a GND pin for digital inputs. Facing the
 
 Each slot has a dedicated **analog** and **digital** pin. These pins correspond to the **Arduino Mega's headers** and can be referenced in **Arduino sketches**.
 
-| Slot | Analog Pin | Digital Pin |
+| Slot | Analog (AIO) Pin | Digital (DIO) Pin |
 |------|-----------|-------------|
 |  1   | A1        | 22          |
 |  2   | A2        | 23          |
