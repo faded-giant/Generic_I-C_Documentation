@@ -42,7 +42,7 @@ The **4-pin power header** at the top of the slots connects to power supply conn
  [GND] [GND] [PWR] [PWR]
 
 ### **Bottom 6-Pin Header (Communication & Power)**
-The **6-pin header** at the bottom provides power and communication connections, wired to the respective **Arduino Mega** pins.
+The **6-pin header** at the bottom  of each slot provides power and communication connections, wired to the respective **Arduino Mega** pins.
 The pins for each slot are oriented (with front facing you) as follows:
 
 [GND] [DIO] [AIO] [SCL] [SDA] [5V]
