@@ -6,6 +6,11 @@ This document provides an overview of the **pin assignments** for the Arduino **
 ![image](https://github.com/user-attachments/assets/bf6460d9-afe8-4721-8198-74e17c5c6802)
 
 Power Applied to J1 is connected to each slot's power header. a 5VDC regulator provides power to the Arduino and the communication headers. 
+
+A I2C Header is provided for an LCD screen
+
+DIO pins 1-8 have breakout pins next to a GND pin for digital inputs. Facing the board, the GND pin is the left pin, and the DIO pin is the right.
+
 ---
 
 ## 🛠️ Slot Pin Assignments
@@ -14,18 +19,18 @@ Each slot has a dedicated **analog** and **digital** pin. These pins correspond 
 
 | Slot | Analog Pin | Digital Pin |
 |------|-----------|-------------|
-|  1   | A0        | 22          |
-|  2   | A1        | 23          |
-|  3   | A2        | 24          |
-|  4   | A3        | 25          |
-|  5   | A4        | 26          |
-|  6   | A5        | 27          |
-|  7   | A6        | 28          |
-|  8   | A7        | 29          |
-|  9   | A8        | 30          |
-| 10   | A9        | 31          |
-| 11   | A10       | 32          |
-| 12   | A11       | 33          |
+|  1   | A1        | 22          |
+|  2   | A2        | 23          |
+|  3   | A3        | 24          |
+|  4   | A4        | 25          |
+|  5   | A5        | 27          |
+|  6   | A6        | 26          |
+|  7   | A7        | 28          |
+|  8   | A8        | 29          |
+|  9   | A9        | 30          |
+| 10   | A10        |11          |
+| 11   | A11       | 12          |
+| 12   | A12       | 13          |
 
 ---
 
