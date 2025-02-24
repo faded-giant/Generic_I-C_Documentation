@@ -36,7 +36,7 @@ Each slot has a dedicated **analog** and **digital** pin. These pins correspond 
 
 ## 🔌 Headers
 
-### **Top 2-Pin Header (Power)**
+### **Top 4-Pin Header (Power)**
 The **4-pin power header** at the top of the board connects to the **Arduino Mega's power pins**.
 
  [GND] [GND] [PWR] [PWR]
@@ -49,4 +49,4 @@ The pins for each slot are oriented (with front facing you) as follows:
 ### 📌 Notes:
 - The **digital pins** listed above can be used directly in **Arduino sketches** (e.g., `digitalWrite(22, HIGH);`).
 - The **analog pins** (A0–A11) are available for reading sensors or other inputs (`analogRead(A0);`).
-- The **headers are directly connected** to the respective Arduino Mega pins for ease of wiring.
+
